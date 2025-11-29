@@ -1,0 +1,127 @@
+/* Container */
+.browse-genres-container {
+  padding: 2rem;
+}
+
+/* Page Heading */
+.browse-genres-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4b3832; /* dark brown to contrast navbar */
+  font-weight: bold;
+}
+
+/* Genre Cards */
+.genre-card {
+  cursor: pointer;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.genre-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.genre-card img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.genre-card .card-title {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212529;
+}
+.browse-genres-container {
+  padding: 2rem;
+  background-color: #f5ebe6; /* matches navbar tones */
+}
+/* Page Container */
+.container {
+  background-color: #f5ebe6; /* light beige background */
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+/* Heading */
+h2 {
+  color: #4b3832; /* dark brown (contrast with beige) */
+  font-weight: bold;
+}
+
+/* Genre Card */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff; /* clean white */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d2d2d; /* dark gray for readability */
+  text-align: center;
+}
+
+/* Accent on hover */
+.card:hover .card-title {
+  color: #b08968; /* warm caramel accent */
+}
+/* Page Container */
+.container {
+  
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+/* Heading */
+h2 {
+  color: #4b3832; /* dark brown (contrast with beige) */
+  font-weight: bold;
+}
+
+/* Genre Card */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff; /* clean white */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5306cf; /* dark gray for readability */
+  text-align: center;
+}
+
+/* Accent on hover */
+.card:hover .card-title {
+  color: #ee082e; /* warm caramel accent */
+}
+
+

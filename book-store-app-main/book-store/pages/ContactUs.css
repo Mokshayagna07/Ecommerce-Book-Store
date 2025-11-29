@@ -1,0 +1,35 @@
+/* Make placeholder text black & bold */
+.form-control::placeholder {
+  color: #000 !important;
+  font-weight: 600;
+  opacity: 1; /* ensures visibility */
+}
+
+/* Make user-entered input bold */
+.form-control {
+  font-weight: 600;
+  border: 2px solid #ccc;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+/* Highlight input on focus */
+.form-control:focus {
+  border-color: #0d6efd; /* bootstrap primary */
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
+}
+
+/* Style the select dropdown */
+.form-select {
+  font-weight: 600;
+  border: 2px solid #ccc;
+}
+
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
+}
+.img-fluid mb-3 mx-auto{
+    background-color: :aqua;
+}

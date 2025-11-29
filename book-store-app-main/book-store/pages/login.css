@@ -1,0 +1,62 @@
+/* Page container */
+.container.mt-5 {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styling */
+.card.shadow-sm.bg-light {
+  background: #ffffffcc;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.card-title.text-center.text-dark.fw-bold {
+  color: #4f46e5;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.form-control.bg-info.bg-opacity-10 {
+  background: linear-gradient(90deg, #e0f7fa, #fce4ec);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control.bg-info.bg-opacity-10:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.5);
+  background-color: #ffffff;
+}
+
+/* Button */
+.btn.btn-primary.w-100 {
+  background: linear-gradient(90deg, #4f46e5, #f472b6);
+  border: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn.btn-primary.w-100:hover {
+  background: linear-gradient(90deg, #f472b6, #4f46e5);
+}
+/* Custom pastel gradient toast for login */
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec); /* same as your login/signup page */
+  color: #4f46e5; /* dark text for contrast */
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.Toastify__progress-bar--success {
+  background: #f472b6; /* pastel pink progress bar */
+}
