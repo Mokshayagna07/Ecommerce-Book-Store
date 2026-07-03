@@ -15,9 +15,7 @@ const genres = [
   { name: "Self-Help", query: "self-help",img: "../public/images/selfhelp.jpg" },
   { name: "Travel", query:"travel", img: "../public/images/travel.jpg" },
    { name: "Juvenile Fiction", query: "Children",img: "../public/images/children.jpg" },
-    { name: "Cooking", query: "Cooking",img: "../public/images/cooking.jpg" },
-   { name: "placeholder", img: "../public/images/placeholder-book.png" },
-  
+    { name: "Cooking", query: "Cooking",img: "../public/images/cooking.jpg" },  
 
 ];
 
